@@ -125,7 +125,11 @@ while True:
 print(f"the biggest number is {biggest} and lowest is {lowest}")
 
 #3 ---- Hova
-
+list_5: list[int] = [int(input("Enter a number: ")) for i in range(5)]
+print(list_5)
+big_num: int = max(list_5)
+index_of_big = list_5.index(big_num)
+print(f"The biggest number is {big_num} in index [{index_of_big + 1}]")
 
 
 
